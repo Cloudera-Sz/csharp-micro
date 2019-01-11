@@ -1,6 +1,6 @@
 using Google.Protobuf;
 using MediatR;
-using NetCoreKit.Domain;
+using Micro.Infrastructure.Domain;
 
 namespace Micro.EventBus
 {

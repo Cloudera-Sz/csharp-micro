@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using NetCoreKit.Domain;
+using Micro.Infrastructure.Domain;
 
 namespace Micro.EventBus
 {
