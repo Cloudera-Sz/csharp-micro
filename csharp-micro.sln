@@ -13,9 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileStorage", "FileStorage"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.FileStorage", "src\Micro.FileStorage\Micro.FileStorage.csproj", "{D9B0538D-0D4A-42BD-9C47-E39D501A01B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Utils", "src\Micro.Utils\Micro.Utils.csproj", "{A58FB5DB-E9BC-4A80-8AC8-129E57B4AC66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.Utils", "src\Micro.Utils\Micro.Utils.csproj", "{A58FB5DB-E9BC-4A80-8AC8-129E57B4AC66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.EventBus.Redis", "src\Micro.EventBus.Redis\Micro.EventBus.Redis.csproj", "{7FA899B3-0F65-4258-8C93-59F5347216E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro.EventBus.Redis", "src\Micro.EventBus.Redis\Micro.EventBus.Redis.csproj", "{7FA899B3-0F65-4258-8C93-59F5347216E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micro.Utils.Redis", "src\Micro.Utils.Redis\Micro.Utils.Redis.csproj", "{4F66CF9E-9F48-401D-BC67-700A57414AC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{7FA899B3-0F65-4258-8C93-59F5347216E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FA899B3-0F65-4258-8C93-59F5347216E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FA899B3-0F65-4258-8C93-59F5347216E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F66CF9E-9F48-401D-BC67-700A57414AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F66CF9E-9F48-401D-BC67-700A57414AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F66CF9E-9F48-401D-BC67-700A57414AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F66CF9E-9F48-401D-BC67-700A57414AC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
